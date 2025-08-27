@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/flight.png";
-import { GetPlaceDetails, PHOTO_REF_URL } from "../../service/GlobalAPI";
+
 import { Link } from "react-router-dom";
+import { GetPlaceDetails, PHOTO_REF_URL } from "../../service/GlobalApi";
 
 const UserTripCardItem = ({ trip }) => {
   const [photoUrl, setPhotoUrl] = useState();
