@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import logo from "../../assets/flight.png";
 
 import { BsSendFill } from "react-icons/bs";
-import { GetPlaceDetails, PHOTO_REF_URL } from "../../service/GlobalAPI";
+import { GetPlaceDetails, PHOTO_REF_URL } from "../../service/GlobalApi";
+// import { GetPlaceDetails, PHOTO_REF_URL } from "../../service/GlobalAPI";
 
 const InfoSection = ({ trip }) => {
   const [photoUrl, setPhotoUrl] = useState();
