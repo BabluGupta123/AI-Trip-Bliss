@@ -1,4 +1,4 @@
-# 🌍 AI-Trip-Bliss ✈️  
+# AI-Trip-Bliss ✈️  
 
 AI-Trip-Bliss is a **modern, AI-powered travel planning web application** built with **React + Vite** and powered by **Google Gemini API**.  
 It helps users create smart trip itineraries, manage their journeys, and get hotel & sightseeing recommendations — all in one place.  
